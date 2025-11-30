@@ -1,6 +1,5 @@
 import { Mail, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/bk-elec-logo.png";
 
 const Index = () => {
   return (
@@ -13,7 +12,7 @@ const Index = () => {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <img 
-            src={logo} 
+            src="/bk-elec-logo.png" 
             alt="BK ELEC - Électricité, Chauffage, Sanitaire" 
             className="h-20 w-auto animate-in slide-in-from-top duration-700"
           />
